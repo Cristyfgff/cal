@@ -101,19 +101,3 @@
     position: relative;
     bottom: 564px;
 }
-
-@media (max-width: 768px) {
-    .container {
-        width: 100%;
-        height: auto;
-        border-radius: 20px;
-    }
-    .buttons {
-        width: 100%;
-    }
-    .btn {
-        width: 80px; 
-        height: 80px;
-        font-size: 24px;  
-    }
-}
