@@ -8,9 +8,6 @@ buttons.forEach(button => {
         input.value += button.textContent;
         input.value = input.value.replace(antiDbl, "$1")
     });
-    button.addEventListener("touchstart", () => {
-        console.log("Button touched:", button.textContent);  // Debug log for touch
-    });
 });
 
 deletebtn.addEventListener("click", () => {
